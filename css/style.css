@@ -64,6 +64,7 @@ svg {
     border-radius: 2.5rem;
     border: none;
     transition: all 0.3s ease-out;
+    cursor: pointer;
 }
 
 .btn:hover,
@@ -1351,4 +1352,5 @@ svg {
         display: grid;
         grid-template-columns: 1fr;
     }
+
 }
