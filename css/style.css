@@ -195,7 +195,7 @@ svg {
 
 .logo {
     display: block;
-    max-width: 210px;
+    max-width: 10.5rem;
     transition: all 0.2s ease-out;
 }
 
@@ -208,6 +208,8 @@ svg {
 
 .logo svg {
     display: block;
+    height: auto;
+    max-width: 10.5rem;
 }
 
 .logo__group {
@@ -220,7 +222,7 @@ svg {
 }
 
 .logo:hover {
-    max-width: 190px;
+    max-width: 9.5rem;
 }
 
 .logo:hover .logo__group--1 {
@@ -261,16 +263,17 @@ svg {
     display: none;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    height: 40px;
-    width: 40px;
+    justify-content: center;
+    gap: 0.375rem;
+    height: 2rem;
+    width: 2rem;
     transition: all 0.3s ease-in-out 0.6s;
     cursor: pointer;
 }
 
 .burger-line {
     height: 3px;
-    width: 32px;
+    width: 1.75rem;
     border-radius: 1rem;
     background-color: white;
 }
@@ -296,11 +299,11 @@ svg {
 }
 
 .burger-btn.active .burger-line--1 {
-    transform: translateY(11px);
+    transform: translateY(0.5625rem);
 }
 
 .burger-btn.active .burger-line--3 {
-    transform: rotate(90deg) translateX(-11px);
+    transform: rotate(90deg) translateX(-0.5625rem);
 }
 
 .burger-btn.active {
@@ -1112,10 +1115,6 @@ svg {
         transform: none;
     }
 
-    .header__logo svg {
-        height: 2.75rem;
-    }
-
     .burger-btn {
         display: flex;
     }
@@ -1352,5 +1351,5 @@ svg {
         display: grid;
         grid-template-columns: 1fr;
     }
-
 }
+
